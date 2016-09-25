@@ -1,0 +1,20 @@
+{
+  "name": "SaitamaKun/Potatoes",
+  "keywords": ["getopt", "wrapper",  "getopt-wrapper"],
+  "authors": [
+    {
+      "name": "Saitama",
+      "email": "ping@gourab.me",
+      "role": "Eater (Developer)",
+      "homepage": "http://gourab.me"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Potatoes\\": "src/lib/"
+    }
+  }
+}
